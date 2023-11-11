@@ -2,9 +2,9 @@ package Introduction_to_Java_algorithm.String;
 
 import java.util.*;
 
-public class CaseConversion {
+public class CaseConversion_2 {
     public static void main(String[] args) {
-        CaseConversion T = new CaseConversion();
+        CaseConversion_2 T = new CaseConversion_2();
         Scanner sc = new Scanner(System.in);
         String src = sc.next();
         System.out.println(T.solution(src));

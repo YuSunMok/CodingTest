@@ -2,15 +2,15 @@ package Introduction_to_Java_algorithm.String;
 
 import java.util.*;
 
-public class Words_In_A_Sentence {
+public class Words_In_A_Sentence_3 {
     public static void main(String[] args) {
-        Words_In_A_Sentence T = new Words_In_A_Sentence();
+        Words_In_A_Sentence_3 T = new Words_In_A_Sentence_3();
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
         System.out.println(T.solution2(str));
     }
 
-    public String solution(String str) {
+    public String solution1(String str) {
         String answer = "";
 
         int max = Integer.MIN_VALUE;
