@@ -22,7 +22,7 @@ public class ReverseWord_4 {
 
         for (String s : str) {
             String x = new StringBuilder(s).reverse().toString();
-            answer.add(s);
+            answer.add(x);
         }
         return answer;
     }
