@@ -2,7 +2,7 @@ package Introduction_to_Java_algorithm.String;
 
 import java.util.Scanner;
 
-public class ExtractNumbers {
+public class ExtractNumbers_9 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String answer = "";
