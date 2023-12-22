@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
-public class CombineTwoArrays {
+public class CombineTwoArrays_1 {
     public static void main(String[] args) {
         solution();
         mySolution();
