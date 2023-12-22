@@ -1,4 +1,4 @@
-package twopointers;
+package Introduction_to_Java_algorithm.twopointers_slidingwindow;
 
 import java.util.ArrayList;
 import java.util.Collections;
