@@ -1,9 +1,6 @@
-package Introduction_to_Java_algorithm.Array;
+package Introduction_to_Java_algorithm.array;
 
-import java.util.Arrays;
 import java.util.Scanner;
-
-import static java.util.Arrays.*;
 
 public class Peaks_10 {
     static int[] dx = {-1, 1, 0, 0};

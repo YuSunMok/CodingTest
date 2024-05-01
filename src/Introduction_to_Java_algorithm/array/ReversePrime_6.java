@@ -1,7 +1,5 @@
-package Introduction_to_Java_algorithm.Array;
+package Introduction_to_Java_algorithm.array;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class ReversePrime_6 {

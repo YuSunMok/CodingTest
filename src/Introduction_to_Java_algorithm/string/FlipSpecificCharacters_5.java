@@ -1,4 +1,4 @@
-package Introduction_to_Java_algorithm.String;
+package Introduction_to_Java_algorithm.string;
 
 import java.util.Scanner;
 
