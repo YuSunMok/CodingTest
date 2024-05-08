@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class anagram_2 {
+public class Anagram_2 {
     public static void main(String[] args) {
         solution();
         mySolution();
