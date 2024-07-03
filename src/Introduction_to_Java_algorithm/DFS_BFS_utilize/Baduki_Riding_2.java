@@ -2,7 +2,7 @@ package Introduction_to_Java_algorithm.DFS_BFS_utilize;
 
 import java.util.Scanner;
 
-public class Baduki_Riding {
+public class Baduki_Riding_2 {
     static int result = Integer.MIN_VALUE;
     static int n, c;
     public static void main (String[] args) throws java.lang.Exception

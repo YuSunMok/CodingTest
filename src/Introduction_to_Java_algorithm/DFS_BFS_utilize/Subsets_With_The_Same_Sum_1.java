@@ -2,7 +2,7 @@ package Introduction_to_Java_algorithm.DFS_BFS_utilize;
 
 import java.util.Scanner;
 
-public class Subsets_With_The_Same_Sum {
+public class Subsets_With_The_Same_Sum_1 {
     static String answer = "NO";
     static boolean flag = false;
     static int n, total = 0;
