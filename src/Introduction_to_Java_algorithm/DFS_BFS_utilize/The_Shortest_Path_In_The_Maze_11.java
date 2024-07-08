@@ -34,11 +34,11 @@ public class The_Shortest_Path_In_The_Maze_11 {
     }
 
     public static void BFS(int x, int y) {
-        Queue<Point> q = new LinkedList<>();
+        Queue<Point1> q = new LinkedList<>();
         board[1][1] = 1;
-        q.offer(new Point(x, y));
+        q.offer(new Point1(x, y));
         while(!q.isEmpty()) {
-            Point p = q.poll();
+            Point1 p = q.poll();
             int cx = p.x;
             int cy = p.y;
             for(int i = 0; i < 4; i++) {
@@ -47,7 +47,7 @@ public class The_Shortest_Path_In_The_Maze_11 {
                 if(nx >= 1 && nx <= 7 && ny >= 1 && ny <= 7 && board[nx][ny] == 0) {
                     board[nx][ny] = 1;
                     dis[nx][ny] += dis[cx][cy] + 1;
-                    q.offer(new Point(nx, ny));
+                    q.offer(new Point1(nx, ny));
                 }
             }
         }
